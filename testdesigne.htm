@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<link rel="stylesheet" media="screen" type="text/css" title="design" href="design.css">
+		<title>profile de l'utilisateur</title>
+	</head>
+
+	<body>		
+		<h3 class="tete">Profile de l'utilisateur | <a href="paneau_utilisateur.php">[Retour]</a></h3>
+		
+			<form method="post" action="profile_utilisateur.php" class="menu">
+			<table>
+				<tr>
+					<td colspan="3" style="text-align:center;"><h3>Vos coordonees</h3></td>
+				</tr>
+				
+				<tr>
+					<td><label for="grade">Grade:</label></td>
+					<td>
+					</td>
+					<td>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="3" style="text-align:center;"><input type="submit" value="valider"/></td>
+				</tr>
+			</table>
+			</form>
+			<br/>
+			<p>Si vous voulez changer le mot de passe:<p>
+			<form method="post" action="profile_utilisateur.php"  class="commande">
+			<table>
+				<tr>
+					<td colspan="2" style="text-align:center;"><h3>Changement du mot de passe</h3></td>
+				</tr>
+				<tr>
+					<td><label for="amotdepasse">Ancien mot de passe:</label></td>
+					<td><input id="amotdepasse" name="amotdepasse" type="password" size="40"/></td>
+				</tr>
+				<tr>
+					<td><label for="nmotdepasse">Nouveau mot de passe:</label></td>
+					<td><input id="nmotdepasse" name="nmotdepasse" type="password" size="40"/></td>
+				</tr>
+				<tr>
+					<td><label for="cnmotdepasse">Confirmer le nouveau mot de passe:</label></td>
+					<td><input id="cnmotdepasse" name="cnmotdepasse" type="password" size="40"/></td>
+				</tr>
+				<tr>
+					<td colspan="2" style="text-align:center;"><input type="submit" value="valider"/></td>
+				</tr>
+			</table>
+			</form>
+			
+			
+	</body>
+	
+</html>
