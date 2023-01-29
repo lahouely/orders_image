@@ -21,7 +21,7 @@ if(isset($_SESSION['id']))		//si l utilisateur est deja connecte
 
 	<div class="page">
 		<h3>Felicitation</h3>
-		<p>La premiere etape de l'inscription est terminee, un Email vous a etait envoyer ,cliquer sur le lien dans l'email pour activer votre compte afin de pouvoir commander nos produits.</p>
+		<p>vous pouvez désormais commander nos produits.</p>
 	</div>
 	</body>
 </html>

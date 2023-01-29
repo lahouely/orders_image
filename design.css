@@ -43,7 +43,7 @@ a
 	top: 120px;
 	/*bottom: 10%;*/
 	left: 0px;
-	width: 190px;
+	width: 290px;
 	/*height: 200px*/
 	
 	background: url('BG_BLACK.png') center center;
@@ -74,10 +74,10 @@ a
 
 	position: absolute;
 	top: 120px;
-	/*bottom: 10%;*/
-	left: 204px;
+	bottom: 10%;
+	left: 304px;
 	right: 0px;
-	/*height: 200px*/
+	height: 200px
 	
 	border: 1px solid rgb(8,40,18);
 }
@@ -92,7 +92,7 @@ a
 	margin:2px;
 	left:2px;
 	right:2px;
-	border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+	border-collapse: collapse; /* Les bordures du tableau seront collï¿½es (plus joli) */
 }
 
 .table td

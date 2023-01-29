@@ -13,12 +13,13 @@ if(isset($_POST['Nom']) AND isset($_POST['Prenom']) AND isset($_POST['Email']) A
 	$reponse->closeCursor();
 	if($existe) die("Cette E'mail existe deja!");
 	
-	$confirmation=randomstring(10);
-	
+	//$confirmation=randomstring(10);
+	$confirmation="1111111111";
+
 	$bdd->exec('insert into utilisateurs(nom,prenom,email,tel,adresse,motdepasse,confirmation,dateinscription) values (\''.$_POST['Nom'].'\',\''.$_POST['Prenom'].'\',\''.$_POST['Email'].'\',\''.$_POST['Tel'].'\',\''.$_POST['Adresse'].'\',MD5(\''.$_POST['motdepasse1'].'\'),\''.$confirmation.'\',CURDATE())');
 	
-	if(!mail($_POST['Email'],'confirmation SARL CEBON','http://localhost/commandes/confirmation.php?Id='.$_POST['Email'].'&Code='.$confirmation,'From: admin@localhost'))
-	die ('l\'envoi du mail a echouer');
+	//if(!mail($_POST['Email'],'confirmation','http://localhost/commandes/confirmation.php?Id='.$_POST['Email'].'&Code='.$confirmation,'From: admin@localhost'))
+	//die ('l\'envoi du mail a echouer');
 	
 	header('location:inscriptionreussite.php');
 }
