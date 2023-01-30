@@ -1,7 +1,7 @@
 <?php
 try
 {
-	$bdd = new PDO('mysql:host=orders-db-mysql-flexible-server.mysql.database.azure.com;dbname=orders-db;charset=UTF8','youcef','pWMv2tsRRKy#t@');
+	$bdd = new PDO('mysql:host=10.2.0.4;dbname=orders-db;charset=UTF8','youcef','pWMv2tsRRKy#t@');
 }
 catch(Exeption	$e)
 {

@@ -1,4 +1,5 @@
 <?php
+		echo '<span>pod: '.explode("-",gethostname())[4].'</span>';
 		if(isset($_SESSION['id']))
 		{
 			if($_SESSION['id']==-1)
