@@ -1,4 +1,4 @@
-# Commands : an online ordering system.
+# Commands : the french word for "Orders", an online ordering system.
 
 This is an online ordering system that I made in 2010 using php.
 
