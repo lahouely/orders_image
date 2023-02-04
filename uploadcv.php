@@ -20,7 +20,7 @@ if(isset($_POST))
 		$bdd->exec('insert into cv (id,nom,prenom,niveau) values (\''.$id.'\',\''.$_POST['nom'].'\',\''.$_POST['prenom'].'\',\''.$_POST['niveau'].'\')') or die(print_r($bdd->errorInfo()));
 		
 		
-		if(move_uploaded_file($_FILES['cv']['tmp_name'],'cv\\'.$id.'.doc')) //Si la fonction renvoie TRUE, c'est que ça a fonctionné...
+		if(move_uploaded_file($_FILES['cv']['tmp_name'],'\\var\\www\\html\\cv\\'.$id.'.doc')) //Si la fonction renvoie TRUE, c'est que ï¿½a a fonctionnï¿½...
 	     {
 	          $msg= 'Upload effectue avec succes !';
 	     }
