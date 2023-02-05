@@ -1,0 +1,102 @@
+*
+{
+	margin: auto;
+	padding: auto;
+	font-family: Verdana;
+}
+
+body
+{
+	margin: 5px;
+	/*padding: 5px;*/
+	/*background: url('BG_WHITE.jpg') center center; */
+	background-color: rgb(200,200,200);
+}
+
+li
+{
+	margin: 20px;
+}
+
+a
+{
+	color: rgb(255,255,255);
+}
+
+.tete
+{
+	padding: 5px;
+	margin: 5px;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	right: 0%;
+	height: 100px;
+}
+
+.menu
+{
+	padding: 5px;
+	margin: 5px;
+
+	position: absolute;
+	top: 120px;
+	/*bottom: 10%;*/
+	left: 0px;
+	width: 290px;
+	/*height: 200px*/
+	
+	background: url('BG_BLACK.png') center center;
+}
+
+.commande
+{
+	padding: 5px;
+	margin: 5px;
+
+	position: absolute;
+	top: 0px;
+	/*bottom: 10%;*/
+	left: 0px;
+	right: 0px;
+	/*height: 200px*/
+	
+	font: bold ,black, 10px, Arial, Verdana, serif;
+	
+	background-color: white ; 
+	border: 2px solid rgb(8,40,18);
+}
+
+.page
+{
+	padding: 5px;
+	margin: 5px;
+
+	position: absolute;
+	top: 120px;
+	bottom: 10%;
+	left: 304px;
+	right: 0px;
+	height: 200px
+	
+	border: 1px solid rgb(8,40,18);
+}
+
+.petitepolice
+{
+	font: 10px, Verdana, serif;
+}
+
+.table
+{
+	margin:2px;
+	left:2px;
+	right:2px;
+	border-collapse: collapse; /* Les bordures du tableau seront coll�es (plus joli) */
+}
+
+.table td
+{
+   border: 2px black solid;
+   padding: 10px;
+}
